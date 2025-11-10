@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181031044653",
+    "project_id": "householdchoresshriya",
+    "storage_bucket": "householdchoresshriya.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181031044653:android:10fa6448fb1412c532daa4",
+        "android_client_info": {
+          "package_name": "com.shriya.householdchores"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiIRJwqbYMasg86dsxHqB7O-aSIQ11LhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

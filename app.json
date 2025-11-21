@@ -13,7 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shriyauskaikar.HouseholdChores",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +27,8 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "googleServicesFile": "./google-services.json",
-      "useNextNotificationsApi": true
+      "useNextNotificationsApi": true,
+      "package": "com.shriyauskaikar.HouseholdChores"
     },
     "plugins": [
       [
@@ -36,6 +41,8 @@
     ],
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "owner": "shriyauskaikar"
+
   }
 }

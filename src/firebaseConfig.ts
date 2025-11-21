@@ -1,8 +1,10 @@
+// firebaseConfig.ts
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDNFPYf07bSfgt9PenvBnHsCtsGSVA2mZo",
+ apiKey: "AIzaSyDNFPYf07bSfgt9PenvBnHsCtsGSVA2mZo",
   authDomain: "householdchoresshriya.firebaseapp.com",
   projectId: "householdchoresshriya",
   storageBucket: "householdchoresshriya.firebasestorage.app",
@@ -11,4 +13,5 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
 export const db = getFirestore(app);
